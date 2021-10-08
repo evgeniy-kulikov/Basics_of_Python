@@ -30,35 +30,35 @@ if 'Max' in list_any:
 if 'Kate' in roles_any:
     print('У меня есть данный друг')
 # цикл while
-print('_ _ _ _ _ цикл while для строки _ _ _ _ _')
+# _ _ _ _ _ цикл while для строки _ _ _ _ _
 i = 0
 while i < len(string_any):
     name = string_any[i]
     print(name)
     i += 1
-print('_ _ _ _ _ цикл while для списка _ _ _ _ _')
+# _ _ _ _ _ цикл while для списка _ _ _ _ _
 i = 0
 while i < len(list_any):
     name = list_any[i]
     print(name)
     i += 1
-print('_ _ _ _ _ цикл while для кортежа _ _ _ _ _')
+# _ _ _ _ _ цикл while для кортежа _ _ _ _ _
 i = 0
 while i < len(roles_any):
     name = roles_any[i]
     print(name)
     i += 1
 # цикл " for "
-print('_ _ _ _ _ цикл for для списка _ _ _ _ _')
+# _ _ _ _ _ цикл for для списка _ _ _ _ _
 for name in string_any:
     print(name)
-print('_ _ _ _ _ цикл for для списка _ _ _ _ _')
+# _ _ _ _ _ цикл for для списка _ _ _ _ _
 for name in list_any:
     print(name)
-print('_ _ _ _ _ цикл for для кортежа _ _ _ _ _')
+# _ _ _ _ _ цикл for для кортежа _ _ _ _ _
 for name in roles_any:
     print(name)
-print('* * * * * * for vc while - различия * * * * * * ')
-print('преимущества стоит отдать циклу  "for"')
-print('особенно при переборе последовательности')
-print('если не нужно манипулировать с счетчиком индекса и условием цикла')
+# * * * * * * for vc while - различия * * * * * *
+# преимущества стоит отдать циклу  "for"'
+# особенно при переборе последовательности
+# если не нужно манипулировать с счетчиком индекса и условием цикла

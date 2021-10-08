@@ -14,7 +14,7 @@ while your_value != secret_number:
     your_value = int(input('Введите свое число от 1 до 100: '))
 print('Вы угадали!')
 print('Конец программы')
-print('_ _ _ _ _ _ _ _ _ _')
+
 # Угадай число с циклом   while и командой break
 print('Прграмма "Угадай число" с циклом   while и командой break')
 secret_number = None
@@ -25,7 +25,7 @@ while True:
     print('Не угадали! Следующая попытка: ')
 print('Вы угадали!')
 print('Конец программы')
-print('_ _ _ _ _ _ _ _ _ _')
+
 """Команда  Continue"""
 print('Команда Continue')
 print('Команды в цикле после Continue не выполняются')
@@ -37,7 +37,7 @@ while number <= your_number:
         print(number)
     number += 1
 print('Конец программы')
-print('_ _ _ _ _ _ _ _ _ _')
+
 """Вывод нечетных чисел с использованием команды continue"""
 print('Вывод нечетных чисел с использованием команды continue')
 number = 0
@@ -49,7 +49,7 @@ while number <= your_number:
     print(number)
     number += 1
 print('Конец программы')
-print('_ _ _ _ _ _ _ _ _ _')
+
 # while - else
 print('Использование  else  в  теле цикла  while')
 number = 0

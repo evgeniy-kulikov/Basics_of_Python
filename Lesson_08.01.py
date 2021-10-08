@@ -1,16 +1,19 @@
 # Функции
-print('* * * * * * Функции * * * * * * ')
 # Встроенные функции
+
 # Функця abs (находит модуль числа)
 print(abs(7))
 print(abs(-7))
+
 # Функци min   max
 numbers = [1, 6, -3, 15, -7, 0, 3, -9]
 print(min(numbers))
 print(max(numbers))
+
 # Функци round
 # в параметрах указывается число и разряд округления
 print(round(3.1415926, 2))
+
 # Функця sum
 print(sum(numbers))
 # Функця enumerate (работает с выбранной последовательностью и нумерует ее по порядку)
@@ -19,6 +22,7 @@ print(sum(numbers))
 name = ['Max', 'Leo', 'Kate']
 for i, name in enumerate(name, 1):
     print(i, name)
+
 # Задача: из введеных пользователем трех чисел получить min, max и сумму
 # создаем пстой контейнер, для заполнения его в цикле
 numbers = []
@@ -33,7 +37,7 @@ print(sum(numbers))
 
 def print_sep():
     print('-' * 50)
-
 print_sep()
+
 
 

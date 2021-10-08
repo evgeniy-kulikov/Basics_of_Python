@@ -8,7 +8,7 @@ for i in winners:
 numbers = range(10)
 print(numbers)
 print(type(numbers))
-print("_____ <class 'range'> - это тип 'диапазон' _____")
+# _____ <class 'range'> - это тип 'диапазон' _____
 # выводим список диапазона  range
 print(list(numbers))
 # возвращаемся к примеру списка  победителей winners

@@ -4,7 +4,7 @@
 user_number = int(input('Введите целое число: '))
 print(user_number + 2)
 print('Конец программы')
-print('_ _ _ _ _ _ _ _ _ _')
+
 """ 2 мой вариант """
 user_number = int(input('Введите целое число: '))
 while user_number <= 0 or user_number >= 10:
@@ -12,7 +12,7 @@ while user_number <= 0 or user_number >= 10:
     user_number = int(input('Введите целое число: '))
 print(user_number**2)
 print('Конец программы')
-print('_ _ _ _ _ _ _ _ _ _')
+
 """ 3 мой вариант """
 user_name = (input('Введите Ваше имя: '))
 user_surname = str(input('Введите Вашу фамилию: '))
@@ -27,4 +27,4 @@ elif (user_age > 40) and (user_weight < 50 or user_weight > 120):
 else:
     print(user_name, user_surname, '- Вы в хорошей форме, но следите за собой!')
 print('Конец программы')
-print('_ _ _ _ _ _ _ _ _ _')
+
